@@ -1,0 +1,753 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0.1</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>9</NumElts>
+<Cluster>
+<Name>Support</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Save Configuration</Name>
+<NumElts>8</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\User\Desktop\JDB\S-EC_new\240503</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Reset</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Wait</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Start Time</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<U16>
+<Name>Update Rate</Name>
+<Val>0</Val>
+</U16>
+<Array>
+<Name>Channel Names</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>Channel Names</Name>
+<Val></Val>
+</String>
+</Array>
+<LvVariant>
+<Name>System Preset</Name>
+</LvVariant>
+</Cluster>
+<Cluster>
+<Name>LOG Configuration</Name>
+<NumElts>4</NumElts>
+<Refnum>
+<Name>LOG REF</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>Log Path</Name>
+<Val></Val>
+</Path>
+<Boolean>
+<Name>LOG</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>ALARM Configuration</Name>
+<NumElts>7</NumElts>
+<Refnum>
+<Name>LOG REF</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>Log Path</Name>
+<Val></Val>
+</Path>
+<Boolean>
+<Name>UPS standby</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>status code</Name>
+<Val>0</Val>
+</I32>
+<Array>
+<Name>SP</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Array>
+<Name>Over Sens Status</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+</Cluster>
+<Array>
+<Name>User Details</Name>
+<Dimsize>4</Dimsize>
+<String>
+<Name>String</Name>
+<Val>1</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>2</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>1</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>Eugene</Val>
+</String>
+</Array>
+<String>
+<Name>Radome Type</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>Timer Configuration</Name>
+<NumElts>10</NumElts>
+<DBL>
+<Name>Wait</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+<String>
+<Name>Next Step</Name>
+<Val></Val>
+</String>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Reset</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>VISA resource</Name>
+<RefKind>VISA</RefKind>
+<Val>COM14</Val>
+</Refnum>
+<Array>
+<Name>Status</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>Status</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>Valve Time</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Valve</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Refnum>
+<Name>Timer queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<I32>
+<Name>Current valve</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>Enable</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Process</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Test Configuration</Name>
+<NumElts>18</NumElts>
+<I32>
+<Name>current Step</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>Wait</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>Next Step</Name>
+<Val></Val>
+</String>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Reset</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>SEQ Time</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>General Reset</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name>Cycles</Name>
+<Val>0</Val>
+</I32>
+<Array>
+<Name>Status</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>register</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Array>
+<Name>Ready</Name>
+<Dimsize>0</Dimsize>
+<Boolean>
+<Name>register</Name>
+<Val></Val>
+</Boolean>
+</Array>
+<Boolean>
+<Name>Backward</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>Current SP</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Current SP</Name>
+<Val></Val>
+</DBL>
+</Array>
+<Cluster>
+<Name>System Preset</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Test Configuration</Name>
+<NumElts>9</NumElts>
+<I32>
+<Name>Cycles</Name>
+<Val>1</Val>
+</I32>
+<DBL>
+<Name>Z Up</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Array>
+<Name>SP List</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<String>
+<Name>Operator</Name>
+<Val>Eugene</Val>
+</String>
+<I32>
+<Name>Point Delay</Name>
+<Val>1</Val>
+</I32>
+<DBL>
+<Name>Z Up 2</Name>
+<Val>-43.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Cleaning In</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Cleaning Out</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<I32>
+<Name>Cleaning Cycles</Name>
+<Val>3</Val>
+</I32>
+</Cluster>
+<String>
+<Name>Test_Start_date</Name>
+<Val></Val>
+</String>
+</Cluster>
+<EW>
+<Name>Test Type</Name>
+<Choice>Calibration</Choice>
+<Choice>Test</Choice>
+<Val>0</Val>
+</EW>
+<I32>
+<Name>Sample Count</Name>
+<Val>0</Val>
+</I32>
+<Cluster>
+<Name>Local Queues</Name>
+<NumElts>5</NumElts>
+<Refnum>
+<Name>Cycles queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Step queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>RES Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Clean queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>PS Scan queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<I32>
+<Name>current Clean</Name>
+<Val>0</Val>
+</I32>
+<Array>
+<Name>PS Measure Plan</Name>
+<Dimsize>2</Dimsize>
+<U16>
+<Name>PS Measure Plan</Name>
+<Val>3</Val>
+</U16>
+<U16>
+<Name>PS Measure Plan</Name>
+<Val>1</Val>
+</U16>
+</Array>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Report Configuration</Name>
+<NumElts>7</NumElts>
+<Cluster>
+<Name>Test Setting</Name>
+<NumElts>7</NumElts>
+<I32>
+<Name>Test_Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Test_ID</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Proc_ID</Name>
+<Val>0</Val>
+</I32>
+<DBL>
+<Name>Max Force</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>User</Name>
+<Val></Val>
+</String>
+<String>
+<Name>SN</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Date</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Array>
+<Name>Measurements</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<String>
+<Name></Name>
+<Val></Val>
+</String>
+</Array>
+<Refnum>
+<Name>LOG REF</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>Report Template</Name>
+<Val>C:\Users\User\Desktop\JDB\S-EC_new\240503</Val>
+</Path>
+<Path>
+<Name>Save Report path</Name>
+<Val>C:\Users\User\Desktop\JDB\S-EC_new\240503</Val>
+</Path>
+<Path>
+<Name>Data File Path</Name>
+<Val></Val>
+</Path>
+<Boolean>
+<Name>Popup Dialog</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>History Data</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Tests</Name>
+<Dimsize>0</Dimsize>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<String>
+<Name>Test Name</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Motor Configuration</Name>
+<NumElts>9</NumElts>
+<Cluster>
+<Name>Tango HW</Name>
+<NumElts>4</NumElts>
+<Refnum>
+<Name>VISA resource</Name>
+<RefKind>VISA</RefKind>
+<Val>COM7</Val>
+</Refnum>
+<I32>
+<Name>Baud Rate (115200)</Name>
+<Val>57600</Val>
+</I32>
+<I32>
+<Name>lAnInterfaceType</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>bAShowProt</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Status</Name>
+<Val>0</Val>
+</Boolean>
+<Array>
+<Name>Abs Position</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Abs Position</Name>
+<Val></Val>
+</I32>
+</Array>
+<Cluster>
+<Name>Axis Velocity</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>dX</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>dY</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>dZ</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>dA</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>acceleration </Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>Z direction</Name>
+<Choice>Up</Choice>
+<Choice>Down</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Position Mode</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>plLSID</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>PalmSense  Configuration</Name>
+<NumElts>6</NumElts>
+<Object>
+<Name>PalmSens.lvclass</Name>
+<NumLevels>1</NumLevels>
+<Class>PalmSens.lvclass</Class>
+<Version>0.0.0.0</Version>
+</Object>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Enable</Name>
+<Val>0</Val>
+</Boolean>
+<Refnum>
+<Name>Is Measuring Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Cluster>
+<Name>Method</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Name</Name>
+<Val>Cyclic Voltammetry (CV)</Val>
+</String>
+<LvVariant>
+<Name>Method Ref</Name>
+</LvVariant>
+</Cluster>
+<Refnum>
+<Name>PS Live Curve Result</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Hiden Scanner Resources</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Link</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>Connection</Name>
+<Choice>Serial</Choice>
+<Choice>TCP/IP</Choice>
+<Choice>USB</Choice>
+<Val>2</Val>
+</EW>
+<String>
+<Name>Host or IP address (TCP/IP)</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Port (Serial/USB)</Name>
+<Val>COM9</Val>
+</String>
+</Cluster>
+<Refnum>
+<Name>VISA resource</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Status</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>MFC Configuration</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>MFC Definition</Name>
+<NumElts>5</NumElts>
+<Refnum>
+<Name>MFC Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM16</Val>
+</Refnum>
+<Boolean>
+<Name>MFC Enable</Name>
+<Val>1</Val>
+</Boolean>
+<I32>
+<Name>Baud Rate</Name>
+<Val>9600</Val>
+</I32>
+<EL>
+<Name>Interface type</Name>
+<Choice>RS-485</Choice>
+<Choice>RS-232</Choice>
+<Val>1</Val>
+</EL>
+<I32>
+<Name>Address</Name>
+<Val>11</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Set Point Options</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Setpoint Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>Mass Flow EU 2</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Setpoint Source</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Valve Mode</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>Enable</Name>
+<Val>0</Val>
+</Boolean>
+<U32>
+<Name>Update Rate</Name>
+<Val>0</Val>
+</U32>
+<Boolean>
+<Name>MRC Chamber Enable</Name>
+<Val>0</Val>
+</Boolean>
+<String>
+<Name>Selected Gas</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Address String</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Pump Configuration</Name>
+<NumElts>7</NumElts>
+<Array>
+<Name>Pump  name</Name>
+<Dimsize>2</Dimsize>
+<Refnum>
+<Name>Pump  name</Name>
+<RefKind>VISA</RefKind>
+<Val>COM17</Val>
+</Refnum>
+<Refnum>
+<Name>Pump  name</Name>
+<RefKind>VISA</RefKind>
+<Val>COM18</Val>
+</Refnum>
+</Array>
+<Refnum>
+<Name>Writer Queue</Name>
+<RefKind>Queue</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Cluster>
+<Name>Pump Info</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>Pump Type</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Speed</Name>
+<Val>100</Val>
+</I32>
+<U16>
+<Name>Direction</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>Running</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Refnum>
+<Name>Current Pump Name</Name>
+<RefKind>VISA</RefKind>
+<Val></Val>
+</Refnum>
+<DBL>
+<Name>Wait</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<String>
+<Name>Next Step</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Reset</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Cluster>
+</LVData>

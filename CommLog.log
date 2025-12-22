@@ -1,0 +1,8 @@
+Using serial connection to instrument on COM9 with baud rate 921600
+;	
+Comms open failed, code -1073807343, source VISA Open in Hiden MS.lvlib:Initialize.vi->Hiden Scanner.lvlib:Scanner Initialize Hardware References.vi->Hiden Scanner.lvlib:Scanner Message Loop.vi->Modules DAQ.vi->Modules.vi->FTSMain.vi
+
+data stop;	
+lset mode 0;	
+lset enable 0;	
+COMMS CLOSED;	

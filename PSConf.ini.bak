@@ -1,0 +1,62 @@
+[Pretreatment settings (PS)]
+ConditioningPotential = 2.000000    
+ConditioningTime = 1.000000    
+DepositionPotential = 1.000000    
+DepositionTime = 3.000000    
+EquilibrationTime = 2.000000    
+
+[Linear Sweep Voltammetry (LSV)]
+BeginPotential = -2.000000    
+EndPotential = 2.000000    
+StepPotential = 0.010000    
+Scanrate = 0.500000    
+
+[Differential Pulse Voltammetry (DPV)]
+BeginPotential = -2.000000    
+EndPotential = 2.000000    
+StepPotential = 0.100000    
+Scanrate = 1.000000    
+PulsePotential = 2.000000    
+PulseTime = 1.000000    
+
+[Cyclic Voltammetry (CV)]
+BeginPotential = 0.000000    
+Vtx1Potential = -1.000000    
+Vtx2Potential = 1.000000    
+StepPotential = 0.100000    
+Scanrate = 0.200000    
+nScans = 2.000000    
+
+[Chronoamperometry (CA)]
+Potential = -2.000000    
+IntervalTime = 2.000000    
+RunTime = 2.000000    
+
+[Chronopotentiometry (CP)]
+Current = -2.000000    
+AppliedCurrentRange = 2.000000    
+RunTime = 2.000000    
+IntervalTime = 0.100000    
+
+[El Imp Spectroscopy (EIS)]
+EquilibrationTime = 10.000000    
+Eac = 0.100000    
+BeginPotential = 0.100000    
+EndPotential = 1.000000    
+StepPotential = 0.010000    
+Potential = 2.000000    
+MaxFrequency = 1.000000    
+MinFrequency = 2.000000    
+nFrequencies = -2.000000    
+SamplingTime = 2.000000    
+MaxEqTime = 2.000000    
+RunTime = 1.000000    
+IntervalTime = 0.100000    
+OCPStabilityCriterion = 0.200000    
+MaxOCPTime = 1.200000    
+# Scan Type:  0 - PGScan, 1 - Time Scan, 2 - Fixed
+ScanType = 1.000000    
+# Freq Type:  0 - Fixed, 1 - Scan, 2 - Other
+FreqType = 1.000000    
+# IsVersusOCP: 0 - False, 1 - True
+MeasureVersusOCP = 0    

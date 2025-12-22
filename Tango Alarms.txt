@@ -1,0 +1,30 @@
+0	no error
+4001	internal error
+4002	internal error
+4003	function call with wrong LSID value or maximum of 8 open connections reached
+4004	Unknown interface type (may appear with Connect...)
+4005	Error while initializing interface
+4006	No connection with controller (e.g. if SetPitch is called before Connect)
+4007	Timeout while reading from interface
+4008	Error during command transmission to Tango controller
+4009	Command aborted (with SetAbortFlag)
+4010	Command is not supported by Tango controller
+4011	Manual Joystick mode switched on (may appear with SetJoystickOn/Off)
+4012	No move command possible, because manual joystick enabled
+4013	Closed Loop Controller Timeout (could not settle within target window)
+4015	Limit switch activated in travel direction
+4016	Repeated vector start!! (Closed Loop controller)
+4017	Error while calibrating (Limit switch not correctly released)
+4101	No valid axis name
+4102	No executable instruction
+4103	Too many characters in command line
+4104	Invalid instruction
+4105	Number is not inside allowed range
+4106	Wrong number of parameters
+4107	Either ! or ? is missing
+4108	No TVR possible, while axis active
+4109	-
+4110	Function not configured
+4111	-
+4112	Limit switch active
+4113	Function not executable, because encoder detected
