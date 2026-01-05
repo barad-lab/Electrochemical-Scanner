@@ -9,6 +9,7 @@ data handling (right-hand side), and measurement queue (bottom).
 
 Data synchronization is achieved by monitoring the relative offset between the internal clock of the measurement PC and the internal clock of the different hardware components, *e.g.*, the PalmSense 4.
 
+The cell design can be found in the folder `/Cell-Design`.
 
 <img width="865" height="487" alt="image" src="https://github.com/user-attachments/assets/b56394b0-61b4-470f-ad73-b7b2b65baf36" />
 
@@ -43,9 +44,3 @@ Figure 6. GUI of the LabVIEW-based control software to remotely control and sync
 <img width="865" height="487" alt="image" src="https://github.com/user-attachments/assets/b1c17527-e225-4b84-a961-16c65b793ec8" />
 
 Figure 7. GUI of the LabVIEW-based control software to remotely control and synchronize stage, pumps, and potentiostat operation, showing the control panel for the data handling.
-
-
-
-
-
-The scanner design can be found at the folder '\Cell-Design'
