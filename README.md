@@ -1,4 +1,6 @@
 *** Electrochemical scanner (ECS) graphical user interface: ***
+
+
 To initialize the application run ‘FTSMain’, which will prompt the graphical user
 interface (GUI) of the ECS as shown in Figure 1. The interface is divided into four
 main sections: stage (Tango), potentiostat (PalmSens), mass flow controller (MFC),
